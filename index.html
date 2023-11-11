@@ -8,6 +8,11 @@
   <title>Login Form in HTML and CSS | Siphephelo</title>
   <link rel="stylesheet" href="style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script>
+    function homePage(){
+      window.location.href = 'homePage.html';
+    }
+  </script>
 </head>
 
 <body>
@@ -27,7 +32,7 @@
         <a href="#">Forgot password?</a>
       </div>
 
-      <button type="submit" class="btn">Login</button>
+      <button type="submit" class="btn" onclick="homePage()">Login</button>
 
       <div class="register-link">
         <p>Don't have an account? <a href="register.html">Register</a></p>
